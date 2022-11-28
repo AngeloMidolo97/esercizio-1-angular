@@ -8,7 +8,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let item of array, index as i">
+      <tr *ngFor="let item of array, index as i"> <!-- CICLO FOR PER VISUALIZZARE NEL TEMPLATE TUTTI GLI OGGETTI ALL'INTERNO DELL'ARRAY -->
         <th scope="row">{{array[i].id}}</th>
         <td>{{array[i].title}}</td>
         <td class="text-success">{{array[i].completed}}</td>
